@@ -1,0 +1,137 @@
+:root {
+  --ink: #e7eaf0;
+  --ink-soft: #a7afc0;
+  --ink-muted: #7d879c;
+  --paper: #0b1220;
+  --panel: #121b2e;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --accent: #5b8cff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--hairline);
+  padding: 28px 0;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.tagline {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--ink-muted);
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.intro {
+  margin: 28px 0;
+  max-width: 640px;
+  color: var(--ink-soft);
+  font-size: 14.5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card .summary {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  flex-grow: 1;
+}
+
+.card .systems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.card .tag {
+  font-size: 10.5px;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  color: var(--ink-muted);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.card .links {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card .added {
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
+.empty {
+  color: var(--ink-muted);
+  font-size: 13.5px;
+}
+
+.site-footer {
+  border-top: 1px solid var(--hairline);
+  padding: 20px 0 40px;
+  color: var(--ink-muted);
+  font-size: 12.5px;
+}
+
+.site-footer code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 3px;
+  padding: 1px 5px;
+}

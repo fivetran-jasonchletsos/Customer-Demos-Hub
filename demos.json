@@ -1,0 +1,18 @@
+[
+  {
+    "customer": "New York Yankees",
+    "systems": ["SQL Server CDC", "StatCast", "Trackman", "Databricks", "dbt"],
+    "summary": "Built for the Yankees discovery follow-up demo. SQL Server → Databricks migration story, player intelligence, player development, and in-game decisions unified in one platform.",
+    "url": "https://fivetran-jasonchletsos.github.io/Yankees-ODI-Demo/",
+    "repo": "https://github.com/fivetran-jasonchletsos/Yankees-ODI-Demo",
+    "added": "2026-07-07"
+  },
+  {
+    "customer": "BD (Becton, Dickinson and Company)",
+    "systems": ["Salesforce", "Coupa", "monday.com", "Workday Adaptive Planning", "Snowflake"],
+    "summary": "Evaluates Fivetran against BD's current ingestion approach — ADF (Salesforce, Coupa) and custom API scripts (monday.com, Workday Adaptive Planning) — with every capability claim sourced from Fivetran's own documentation.",
+    "url": "https://fivetran-jasonchletsos.github.io/BD-ODI-Demo/",
+    "repo": "https://github.com/fivetran-jasonchletsos/BD-ODI-Demo",
+    "added": "2026-07-07"
+  }
+]
