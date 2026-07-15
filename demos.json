@@ -14,5 +14,13 @@
     "url": "https://fivetran-jasonchletsos.github.io/BD-ODI-Demo/",
     "repo": "https://github.com/fivetran-jasonchletsos/BD-ODI-Demo",
     "added": "2026-07-07"
+  },
+  {
+    "customer": "Healthfirst",
+    "systems": ["Salesforce", "Oracle Database", "S3 / SharePoint", "AWS S3 Managed Data Lake"],
+    "summary": "Built for Healthfirst's Mutual Evaluation Plan. Salesforce, Oracle Database, and S3/SharePoint landing in a single AWS S3 Managed Data Lake (Iceberg + Glue), POC success criteria scored against the customer's own capability matrix, every claim sourced from Fivetran's own documentation.",
+    "url": "https://fivetran-jasonchletsos.github.io/Healthfirst-ODI-Demo/",
+    "repo": "https://github.com/fivetran-jasonchletsos/Healthfirst-ODI-Demo",
+    "added": "2026-07-15"
   }
 ]
