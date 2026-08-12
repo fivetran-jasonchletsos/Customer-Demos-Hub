@@ -22,5 +22,13 @@
     "url": "https://fivetran-jasonchletsos.github.io/Healthfirst-ODI-Demo/",
     "repo": "https://github.com/fivetran-jasonchletsos/Healthfirst-ODI-Demo",
     "added": "2026-07-15"
+  },
+  {
+    "customer": "Meridian Industrial Supply Co. (illustrative — Context Layer product demo)",
+    "systems": ["Salesforce", "Postgres", "Zendesk", "dbt Labs", "Slack", "ChatGPT", "Claude"],
+    "summary": "AE-friendly walkthrough of Fivetran + dbt Labs' Context Layer: why AI agents give wrong answers without governed business context, an interactive ask-a-question widget, the token/cost efficiency case, the governance objection, and a dedicated call-track section with talking points and objection handling.",
+    "url": "https://fivetran-jasonchletsos.github.io/ContextLayer-ODI-Demo/",
+    "repo": "https://github.com/fivetran-jasonchletsos/ContextLayer-ODI-Demo",
+    "added": "2026-08-12"
   }
 ]
